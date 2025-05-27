@@ -1,0 +1,175 @@
+{
+  "id": "the-convergence-shared-compendium",
+  "esmodules": [
+    "weapons.js"
+  ],
+  "title": "The Convergence Shared Compendium",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "flags": {
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.INEwHtOpuLrz7QIu",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.ktZTqKmuEoH4GF9n",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.CEjVSfyrZBu5gUkF",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.2vP9xc5T6aT7FbQv",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.LFNcdQk8uuWL4y4t",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.aSDsNnbUp58CGHpr",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.BKpf8HVCrU6xTcFl",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.ROzTGAUQLTM1sO7b",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.e1D1MK6TQLfIKXZl",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.KiwCoInEXHl1fdOX",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.JzZz8gv5oCSqxBJW",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.3oYujvaKDEiIQgsQ",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.YnEfUiNNYFN8O3Ec"
+      ]
+    }
+  },
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Character Classes",
+      "path": "packs/character-classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "npcs",
+      "label": "Actors",
+      "path": "packs/npcs",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "enemies",
+      "label": "Enemies",
+      "path": "packs/enemies",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sounds",
+      "label": "Sounds",
+      "path": "packs/sounds",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "origins",
+      "label": "Character Origins",
+      "path": "packs/character-origins",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "roll-tables",
+      "label": "Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
