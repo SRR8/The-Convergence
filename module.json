@@ -1,15 +1,17 @@
 {
   "id": "the-convergence-shared-compendium",
   "esmodules": [
-    "weapons.js"
+    "scripts/the-convergence.js"
   ],
-  "title": "The Convergence Shared Compendium",
-  "version": "1.0.0",
+  "title": "The Convergence",
+  "version": "2.0.0",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "14",
+    "verified": "14.364",
+    "maximum": "14.999"
   },
   "flags": {
+    "canUpload": true,
     "dnd5e": {
       "spellLists": [
         "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.INEwHtOpuLrz7QIu",
@@ -20,11 +22,13 @@
         "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.aSDsNnbUp58CGHpr",
         "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.BKpf8HVCrU6xTcFl",
         "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.ROzTGAUQLTM1sO7b",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.5HnIk6HsrSxkvkz5",
         "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.e1D1MK6TQLfIKXZl",
         "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.KiwCoInEXHl1fdOX",
         "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.JzZz8gv5oCSqxBJW",
         "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.3oYujvaKDEiIQgsQ",
-        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.YnEfUiNNYFN8O3Ec"
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.YnEfUiNNYFN8O3Ec",
+        "Compendium.the-convergence-shared-compendium.journals.JournalEntry.7nNeyCFKy2H2btq0.JournalEntryPage.8FSkZwQFQ1OqC3mR"
       ]
     }
   },
@@ -38,7 +42,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "npcs",
@@ -49,18 +54,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "enemies",
-      "label": "Enemies",
-      "path": "packs/enemies",
-      "type": "Actor",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "macros",
@@ -71,29 +66,32 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "sounds",
       "label": "Sounds",
       "path": "packs/sounds",
       "type": "Playlist",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "flags": {}
     },
     {
       "name": "items",
-      "label": "Items",
+      "label": "Equipment",
       "path": "packs/items",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "feats",
@@ -104,7 +102,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "origins",
@@ -115,7 +114,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "journals",
@@ -126,7 +126,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "spells",
@@ -137,7 +138,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "roll-tables",
@@ -148,18 +150,86 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
+    },
+    {
+      "name": "the-convergence",
+      "label": "The Convergence",
+      "path": "packs/the-convergence",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "monster-features",
+      "label": "Monster Features",
+      "path": "packs/monster-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "adventures",
+      "label": "Adventures",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "maps",
+      "label": "Maps",
+      "path": "packs/maps",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "The Convergence",
+      "color": "#ff8000",
+      "sorting": "m",
+      "packs": [
+        "the-convergence",
+        "classes",
+        "origins",
+        "npcs",
+        "items",
+        "feats",
+        "spells",
+        "journals",
+        "sounds",
+        "macros",
+        "roll-tables",
+        "monster-features",
+        "adventures",
+        "maps"
+      ],
+      "folders": []
     }
   ],
   "relationships": {
     "requires": [
       {
         "id": "dae",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "midi-qol",
         "type": "module",
         "compatibility": {}
       }
@@ -171,5 +241,6 @@
         "compatibility": {}
       }
     ]
-  }
+  },
+  "description": ""
 }
